@@ -11,7 +11,7 @@ const MONTHS = [
 ]
 
 const fmt = (n) =>
-  new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(n)
+  new Intl.NumberFormat('en-US', { style: 'currency', currency: 'LKR' }).format(n)
 
 const Budgets = () => {
   const now = new Date()

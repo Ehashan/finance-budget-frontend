@@ -78,7 +78,7 @@ const Register = () => {
                 name="name"
                 value={form.name}
                 onChange={handleChange}
-                placeholder="John Doe"
+                placeholder="Full Name"
                 className="input"
                 autoComplete="name"
               />

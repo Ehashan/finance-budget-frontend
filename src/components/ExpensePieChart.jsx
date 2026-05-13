@@ -1,6 +1,6 @@
 import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from 'recharts'
 
-const fmt = (n) => new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(n)
+const fmt = (n) => new Intl.NumberFormat('en-US', { style: 'currency', currency: 'LKR' }).format(n)
 
 const CustomTooltip = ({ active, payload }) => {
   if (!active || !payload?.length) return null

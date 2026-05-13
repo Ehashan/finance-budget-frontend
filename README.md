@@ -1,16 +1,64 @@
-# React + Vite
+# Finance Budget Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend application for the Personal Finance & Budget Tracking System.
 
-Currently, two official plugins are available:
+This application provides a user-friendly interface for managing personal finances, including transaction tracking, budget planning, category management, and dashboard analytics.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- User Registration & Login
+- JWT Authentication
+- Dashboard Overview
+- Add / Edit / Delete Transactions
+- Budget Management
+- Category Management
+- Protected Routes
+- Responsive UI
+- API Integration with Backend
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- React.js
+- Vite
+- Tailwind CSS
+- Axios
+- React Router DOM
+- Context API
+
+---
+
+## Project Structure
+
+```bash
+finance-budget-frontend/
+│
+├── src/
+│   ├── components/
+│   │   └── TransactionForm.jsx
+│   │
+│   ├── context/
+│   │   └── AuthContext.jsx
+│   │
+│   ├── hooks/
+│   │
+│   ├── pages/
+│   │   ├── Dashboard.jsx
+│   │   ├── Transactions.jsx
+│   │   ├── Budgets.jsx
+│   │   ├── Categories.jsx
+│   │   ├── Login.jsx
+│   │   └── Register.jsx
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── .env
+├── package.json
+├── vite.config.js
+└── README.md
