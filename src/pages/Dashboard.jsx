@@ -7,7 +7,7 @@ import RecentTransactions     from '../components/RecentTransactions'
 import BudgetProgressList     from '../components/BudgetProgressList'
 
 const MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December']
-const fmt = (n) => new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(n)
+const fmt = (n) => new Intl.NumberFormat('en-US', { style: 'currency', currency: 'LKR' }).format(n)
 const Skeleton = ({ className = '' }) => <div className={`animate-pulse bg-zinc-800 rounded-xl ${className}`} />
 
 const Dashboard = () => {

@@ -6,7 +6,7 @@ import TransactionForm     from '../components/TransactionForm'
 
 // ── helpers ──────────────────────────────────────────────────────────────────
 const fmt = (n) =>
-  new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(n)
+  new Intl.NumberFormat('en-US', { style: 'currency', currency: 'LKR' }).format(n)
 
 const fmtDate = (d) =>
   new Date(d).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
