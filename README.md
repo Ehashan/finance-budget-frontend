@@ -44,6 +44,10 @@ finance-budget-frontend/
 │   │   └── AuthContext.jsx
 │   │
 │   ├── hooks/
+│   │   ├── useBugdet.jsx
+│   │   ├── useCategories.js
+│   │   ├── use Dashboard.js
+│   │   ├── useTransactions.js             
 │   │
 │   ├── pages/
 │   │   ├── Dashboard.jsx
